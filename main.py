@@ -8,9 +8,9 @@ import sys
 
 load_dotenv()
 
-name = "Vicky's Chill Playlist"
-desc = "Some chil beats curated by Vli"
-url = "https://open.spotify.com/playlist/56wCm5iHTas4p7CwoN0T4e?si=30591c0e92004328"
+name = "Your playlist name"
+desc = "Playlist description"
+url = "https://open.spotify.com/playlist/1O1dNwJkLV59Ke6JEzET6m?si=9924513604e1412b"
 playlist_id = re.findall(r"playlist\/([a-zA-Z0-9]*)", url)[0]
 
 if not playlist_id:
